@@ -1,0 +1,54 @@
+body, h1, h2, h3, h4, p, ul, ol[class], li, figure, figcaption, blockquote, dl, dd, html {
+    margin: 0;
+}
+
+html {
+    background-color: #5F9EA0;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards {
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    width: 1420px;
+    height: 934px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    height: 300px;
+    width: 700px;
+    background-color: #A52A2A;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.card_img {
+    height: 300px;
+    width: 450px;
+    background-color: #FF4500;
+    border-right: 1px solid black;
+}
+
+.card_img img {
+    height: 300px;
+    width: 450px;
+}
+
+.text {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+    color: #00FFFF;
+    text-decoration: underline;
+}
