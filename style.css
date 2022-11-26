@@ -15,7 +15,6 @@ html {
     height: 934px;
     justify-content: space-between;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 
 .card {
